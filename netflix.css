@@ -32,6 +32,8 @@ color: aliceblue;
 }
 main{
     text-align: center;
+    margin-bottom: 10rem;
+    
 
 font-size:xx-large;
 }
@@ -48,24 +50,50 @@ font-size:xx-large;
     background-color: red;
     color: white;
     border-color: red;
-}body{
+}
+.background{
     background-image: url("./bzck.png");
     background-color: black;
     background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
     background-size: cover;
     background-blend-mode:exclusion;
    
 }
-h1,h4,h6{
+.h1first,.h4first,.h6first{
     color: white;
 }
+body{
+    background-color: black;
+}
 
-h6{
+.h6first{
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
 }
-h1{
+.h1first{
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-bottom: 0.1rem;
+    }
+    .tv1{
+        width: 28rem;
+        height: 14rem;
+        margin-top: 5rem;
+       
+    }
+    .second{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5rem;
+
+    }
+    .h1second,.h4second{
+        color: white;
+    font-size:x-large;
+    }
+    .h1second{
+        margin-left: 0rem;
+        font-size: 75px;
     }
